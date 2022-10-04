@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import BackgroundImage from "../components/BackgroundImage";
 import Header from "../components/Header";
@@ -84,7 +84,7 @@ export default function Signup() {
 }
 
 const Container = styled.div`
-  positon: relative;
+  position: relative;
   .content {
     position: absolute;
     top: 0;
