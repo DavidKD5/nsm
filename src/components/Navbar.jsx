@@ -34,7 +34,7 @@ export default function Navbar({ isScrolled }) {
           <ul className="links flex">
             {links.map(({ name, link }) => {
               return (
-                <li kye={name}>
+                <li key={name}>
                   <Link to={link}>{name}</Link>
                 </li>
               );
